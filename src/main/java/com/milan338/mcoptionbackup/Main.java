@@ -58,6 +58,10 @@ public class Main {
             else if (event.button.id == 702)
                 Minecraft.getMinecraft().displayGuiScreen(new ConfirmImport(event.gui));
             else if (event.button.id == 703 && Desktop.isDesktopSupported()) {
+                // Ensure backups folder exists
+                File f = new File(Main.newdir + "backups");
+                if (!f.exists())
+                    f.mkdirs();
                 Desktop.getDesktop().open(new File(newdir + "backups"));
                 if (Minecraft.getMinecraft().isFullScreen())
                     Minecraft.getMinecraft().toggleFullscreen();
