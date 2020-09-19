@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mcoptionsbackup",
+  "name": "Options Backup",
+  "description": "Backup and import your Minecraft controls and game options",
+  "version": "1.0.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Milan338"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
